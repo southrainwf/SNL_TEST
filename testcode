@@ -2,3 +2,10 @@
 
 echo A
 echo B
+
+a=$1
+b=$2
+
+c=$(expr $a + $b)
+
+echo $c
